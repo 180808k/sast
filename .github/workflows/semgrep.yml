@@ -1,5 +1,5 @@
 name: Semgrep
-on: [commit]
+on: [pull_request, push]
 jobs:
   semgrep:
     name: Scan
